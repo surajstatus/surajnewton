@@ -121,3 +121,7 @@ Example: A Library class may aggregate multiple Book objects, indicating that a 
 10. Interfaces
 Definition: An interface is a contract that defines a set of methods that a class must implement. It does not provide any implementation details.
 Example: In languages like Java, an interface can be defined, and any class that implements the interface must provide implementations for its methods.
+
+Summary
+DOM: Represents the structure of a web document and allows for dynamic manipulation of HTML and CSS.
+BOM: Provides an interface to interact with the browser environment, allowing control over the browser window, history, and navigator information.
