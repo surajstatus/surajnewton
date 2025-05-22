@@ -1,0 +1,117 @@
+1. .NET / C# Basics
+Q1: What is the difference between .NET Framework and .NET Core?
+
+A:
+
+.NET Framework is Windows-only and good for desktop & enterprise apps.
+
+.NET Core is cross-platform (Windows, Linux, macOS), open-source, and optimized for performance and scalability.
+
+.NET Core is now unified into .NET 5+ (latest versions) under just “.NET”.
+
+Q2: What are the four pillars of OOP in C#?
+
+A:
+
+Encapsulation – Hiding data with access modifiers.
+
+Abstraction – Hiding complex implementation via abstract classes/interfaces.
+
+Inheritance – One class can inherit from another.
+
+Polymorphism – Methods behave differently based on input (overloading/overriding).
+
+Q3: What is Dependency Injection in .NET Core?
+
+A:
+It’s a design pattern to inject dependencies (like services) into a class through its constructor.
+.NET Core has built-in support via Startup.cs with methods like services.AddScoped().
+
+Q4: What is async/await in C#?
+A:
+Used for asynchronous programming. async marks a method, and await pauses execution until a task completes. It improves app responsiveness.
+
+Q5
+Method Overriding: Allows a subclass to provide a specific implementation of a method already defined in its superclass. It is resolved at runtime.
+Method Overloading: Allows multiple methods with the same name but different parameters within the same class. It is resolved at compile time (not directly supported in Python).
+
+Q6
+Abstraction in Object-Oriented Programming (OOP)
+Definition: Abstraction is a fundamental concept in OOP that focuses on hiding the complex implementation details of a system and exposing only the necessary features or functionalities to the user. It allows programmers to work with higher-level concepts without needing to understand the intricate details of how those concepts are implemented.
+
+Abstract Class:
+
+The Vehicle class is an abstract class that defines the methods start() and stop(). These methods are declared but not implemented, indicating that any subclass must provide its own implementation.
+
+Concrete Class:
+The Car class inherits from the Vehicle class and provides specific implementations for the start() and stop() methods. It also has its own method, drive(), which is specific to the Car class.
+
+Usage:
+When you create an instance of Car, you can call the start(), drive(), and stop() methods without needing to know how these methods are implemented internally. The complexity of the car's operation is hidden from the user, demonstrating abstraction.
+
+Q7
+
+Explain me oops theory with example and diagram
+
+BLACKBOXAI
+
+Object-Oriented Programming (OOP) is a programming paradigm that uses "objects" to design software. It is based on several key concepts, including:
+
+Classes and Objects:
+
+A class is a blueprint for creating objects. It defines properties (attributes) and behaviors (methods) that the objects created from the class can have.
+An object is an instance of a class.
+Encapsulation:
+
+This is the bundling of data (attributes) and methods (functions) that operate on the data into a single unit or class. It restricts direct access to some of the object's components, which can prevent the accidental modification of data.
+Inheritance:
+
+This allows a new class (subclass or derived class) to inherit properties and methods from an existing class (superclass or base class). This promotes code reusability.
+Polymorphism:
+
+This allows methods to do different things based on the object it is acting upon, even if they share the same name. It can be achieved through method overriding and method overloading.
+
+Q8
+
+1. Objects
+Definition: An object is an instance of a class. It represents a real-world entity and contains both data (attributes) and methods (functions) that operate on the data.
+Example: In a class Car, an object could be myCar, which has specific attributes like color, model, and year.
+
+2. Classes
+Definition: A class is a blueprint or template for creating objects. It defines the properties (attributes) and behaviors (methods) that the objects created from the class will have.
+Example: The Car class defines what attributes and methods all car objects will have.
+
+3. Attributes
+Definition: Attributes are the data stored in an object. They represent the state or properties of an object.
+Example: In a Car class, attributes might include color, model, year, and engine_type.
+
+4. Methods
+Definition: Methods are functions defined within a class that describe the behaviors of an object. They can manipulate the object's attributes and perform operations.
+Example: In a Car class, methods might include start(), stop(), and accelerate().
+
+5. Constructor
+Definition: A constructor is a special method that is called when an object is instantiated. It is used to initialize the object's attributes.
+Example: In Python, the __init__ method serves as a constructor.
+
+6. Destructor
+Definition: A destructor is a special method that is called when an object is destroyed. It is used to perform cleanup activities.
+Example: In Python, the __del__ method serves as a destructor.
+
+7. Access Modifiers
+Definition: Access modifiers control the visibility of class members (attributes and methods). Common access modifiers include:
+Public: Members are accessible from outside the class.
+Private: Members are accessible only within the class.
+Protected: Members are accessible within the class and its subclasses.
+Example: In Python, a private attribute can be defined with a double underscore prefix (e.g., __private_attr).
+
+8. Composition
+Definition: Composition is a design principle where a class is composed of one or more objects from other classes. It represents a "has-a" relationship.
+Example: A Car class may have an Engine class as an attribute, indicating that a car "has an engine."
+
+9. Aggregation
+Definition: Aggregation is a special form of association that represents a "whole-part" relationship. It indicates that one class is a collection or container of other classes.
+Example: A Library class may aggregate multiple Book objects, indicating that a library "contains books."
+
+10. Interfaces
+Definition: An interface is a contract that defines a set of methods that a class must implement. It does not provide any implementation details.
+Example: In languages like Java, an interface can be defined, and any class that implements the interface must provide implementations for its methods.
