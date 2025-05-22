@@ -1,3 +1,9 @@
+userprofilepage.netlify.app
+movieticketsbooking.netlify.app
+cityweatherappsite.netlify.app
+pvr-search.netlify.app
+makeyoursnote.netlify.app
+
 1. .NET / C# Basics
 Q1: What is the difference between .NET Framework and .NET Core?
 
