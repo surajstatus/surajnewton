@@ -4,6 +4,16 @@ cityweatherappsite.netlify.app
 pvr-search.netlify.app
 makeyoursnote.netlify.app
 
+tech used here 
+Frontend: React.js, React Router
+Styling: Bootstrap, CSS Modules / Tailwind 
+State Management: useState, useEffect, Context API 
+Backend: Node.js, Express
+Database: MongoDB
+
+"I created a simple food ordering app using React, and I called it FoodApp. It's like a mini version of Zomato. Users can see a list of restaurants, view their menus, and add food items to a cart. They can also sign up, log in, and place an order. I used React Router for moving between pages and Context API to manage the cart and user state. The app is fully responsive, so it works well on phones and desktops. One challenge I had was keeping the cart updated across pages, but I solved that using global state. It really helped me understand how to build a full web app using React."
+
+
 1. .NET / C# Basics
 Q1: What is the difference between .NET Framework and .NET Core?
 
